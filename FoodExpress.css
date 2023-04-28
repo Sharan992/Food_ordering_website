@@ -1,6 +1,6 @@
     
 .S5-food-logo {
-    width: 80px;
+    width: 200px;
     height: 70px;
 }
 
@@ -25,9 +25,10 @@
 }
 
 .banner-section-bg-container {
-    background-image: url("foodmunch-banner-bg.png");
+    background-image: url("Banner.jpeg");
     height: 100vh;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .banner-heading {
@@ -55,13 +56,11 @@
 }
 
 .custom-outline-button {
-    color: #d0b200;
-    background-color: transparent;
+    color: white;
+    background-color: #a58d00;
     width: 130px;
     height: 45px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #d0b200;
+    border-width: 0px;
     border-radius: 8px;
 }
 
@@ -271,3 +270,21 @@
     font-size: 14px;
 }
 
+
+
+ .socials{
+display: flex;
+justify-content: center;
+}
+.socials a{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 35px;
+margin-right: 1.5rem;
+border-radius: 50%;
+}
+.socials a:hover{
+width: 100px;
+transition: all 2s ease;
+}
